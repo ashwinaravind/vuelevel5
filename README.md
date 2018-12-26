@@ -29,3 +29,26 @@ npm test
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 # vuelevel5
+
+Complete tutorial From
+https://coursetro.com/courses/23/Vue-Tutorial-in-2018---Learn-Vue.js-by-Example
+
+vue init webpack <projectname>
+cd <projectname>
+npm run dev
+
+npm run build
+#create bucket
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Sid": "PublicReadAccess",
+			"Effect": "Allow",
+			"Principal": "*",
+			"Action": "s3:GetObject",
+			"Resource": "arn:aws:s3:::YOUR-BUCKET-NAME/*"
+		}
+	]
+}
+aws s3 sync ./dist s3://your-bucket-name
