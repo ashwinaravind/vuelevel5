@@ -1,6 +1,6 @@
 <template>
-  <p>configured on github</p>
   <div id="app">
+    <p>configured on github</p>
     <nav>
       <router-link to ="/">Home</router-link>
       <router-link to ="/about">About</router-link>
