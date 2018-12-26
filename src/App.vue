@@ -1,4 +1,5 @@
 <template>
+  <p>configured on github</p>
   <div id="app">
     <nav>
       <router-link to ="/">Home</router-link>
